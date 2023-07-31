@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,7 @@ body {
     color: #f0f0f0;
 }
 
-header {margin: 25px;}
-
+header {margin: 25px 0 50px 0;}
 
 header h1, header img {
     display: block;
@@ -18,4 +19,18 @@ header h1, header img {
     margin: 0 auto;
 }
 
-img { max-width: 255px;}
+img {max-width: 255px;}
+
+.post {
+    width: 675px;
+    margin: 0 auto;
+    border: 1px solid hsl(0, 0%, 25%);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.post h2 {font-size: 2.25rem; margin-bottom: 10px;}
+
+.post p {font-family: 'Poppins';}
+
+.post img {display: block; margin: 25px auto;}
